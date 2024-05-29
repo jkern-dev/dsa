@@ -14,3 +14,5 @@ def maxArea(self, height):
         else:
             right_idx -= 1
     return max_area
+
+print(maxArea([1,8,6,2,5,4,8,3,7]))
